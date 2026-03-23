@@ -1,0 +1,31 @@
+正在加载数据...
+✓ 加载了 500 部扩展电影
+✓ 加载了 cleaned_movies 数据
+✓ 加载了基于用户的推荐数据
+✓ 加载了基于物品的推荐数据
+✓ 加载了cosine测试预测数据
+✓ 加载了pearson测试预测数据
+✓ 加载了 1000 个增强用户画像
+✓ 加载了 1000 个用户相似度数据
+✓ 加载了用户评分数据
+数据加载完成！
+
+============================================================
+🎬 MovieRec - Movie Recommendation System API
+============================================================
+Server: http://127.0.0.1:8080
+Frontend: http://127.0.0.1:8080/
+============================================================
+
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.247:8080
+Press CTRL+C to quit
+127.0.0.1 - - [18/Mar/2026 01:46:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2026 01:46:08] "GET /assets/index-SgDnT_eZ.css HTTP/1.1" 304 -
+127.0.0.1 - - [18/Mar/2026 01:46:08] "GET /assets/index-DIF7nlm2.js HTTP/1.1" 304 -
+127.0.0.1 - - [18/Mar/2026 01:46:08] "GET /api/movies?per_page=24 HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2026 01:47:45] "GET /api/movies/undefined HTTP/1.1" 304 -
